@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cheatsheet</title>
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul class = "nav">
+      <li><a href="./index.html"
+      ><img src="./resources/images/2.png"
+      /></a></li>
+      <li><a href="./about.html">About</a></li>
+      <li class="projdrop">
+        <a class="dropbtn" href="./projects.html">Projects</a>
+        <div class="proj-content">
+        <a href="./cheatsheet.html">Cheatsheet</a>
+        <a href="./stylesheet.html">Stylesheet</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4</a>
+      </li>
+      
+      </div>
+      </ul>
+  </nav>
+    <main>
+      <h1>Cheatsheet for Web Dev</h1>
+      <!-- HTML Table -->
+      <h2>HTML Tags</h2>
+      <table>
+        <!-- Headers -->
+        <thead>
+          <tr>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <!-- div -->
+        <tr>
+          <td>&lt;div&gt;&lt;/div&gt;</td>
+          <td>Div Section</td>
+          <td>defines a section in a document</td>
+          <td>
+            &lt;div class="myDiv"&gt;&lt;p&gt;text inside a
+            div&lt;/p&gt;&lt;/div&gt;
+          </td>
+        </tr>
+        <!-- h1 -->
+        <tr>
+          <td>&lt;h1&gt;&lt;/h1&gt;</td>
+          <td>Headings</td>
+          <td>defines a heading</td>
+          <td>&lt;h1&gt;my first heading&lt;/h1&gt;</td>
+        </tr>
+        <!-- p -->
+        <tr>
+          <td>&lt;p&gt;&lt;/p&gt;</td>
+          <td>Paragraph</td>
+          <td>defines a paragraph</td>
+          <td>&lt;p&gt;a paragraph&lt;/p&gt;</td>
+        </tr>
+        <!-- img -->
+        <tr>
+          <td>&lt;img&gt;</td>
+          <td>Image</td>
+          <td>defines an image</td>
+          <td>&lt;img src="path/url here"&gt;</td>
+        </tr>
+        <!-- a -->
+        <tr>
+          <td>&lt;a&gt;&lt;/a&gt;</td>
+          <td>Anchor</td>
+          <td>defines a hyperlink</td>
+          <td>&lt;a href="url"&gt;link name here&lt;/a&gt;</td>
+        </tr>
+        <!-- br -->
+        <tr>
+          <td>&lt;br&gt;</td>
+          <td>Line Break</td>
+          <td>defines a line break</td>
+          <td>if i wanted a new line &lt;br&gt; i would use br</td>
+        </tr>
+        <!-- video -->
+        <tr>
+          <td>&lt;video&gt;&lt;/video&gt;</td>
+          <td>Video</td>
+          <td>defines embedded video content</td>
+          <td>
+            &lt;video controls&gt;&lt;source src="url here"&gt;&lt;/video&gt;
+          </td>
+        </tr>
+        <!-- audio -->
+        <tr>
+          <td>&lt;audio&gt;&lt;/audio&gt;</td>
+          <td>Audio</td>
+          <td>defines embedded audio content</td>
+          <td>
+            &lt;audio controls&gt;&lt;source src="url here"&gt;&lt;/audio&gt;
+          </td>
+        </tr>
+        <!-- comment -->
+        <tr>
+          <td>&lt;-- --&gt;</td>
+          <td>Comment</td>
+          <td>defines a comment</td>
+          <td>&lt;-- this is a comment --&gt;</td>
+        </tr>
+        <!-- button -->
+        <tr>
+          <td>&lt;button&gt;&lt;/button&gt;</td>
+          <td>Button</td>
+          <td>defines a clickable button</td>
+          <td>&lt;button type="button"&gt;Click me!&lt;/button&gt;</td>
+        </tr>
+
+        <!-- span -->
+        <tr>
+          <td>&lt;span&gt;&lt;/span&gt;</td>
+          <td>Span</td>
+          <td>an inline container to mark up part of a text</td>
+          <td>
+            &lt;p&gt; I have &lt;span
+            style="color:green"&gt;eyes&lt;/span&gt;&lt;/p&gt;
+          </td>
+        </tr>
+      </table>
+      <!-- Table Tags -->
+      <h2>Table Tags</h2>
+      <table>
+        <!-- Headers -->
+        <thead>
+          <tr>
+            <th>Tag</th>
+            <th>Description</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <!-- table -->
+        <tr>
+          <td>&lt;table&gt;&lt;/table&gt;</td>
+          <td>html element that represents tabular data</td>
+          <td>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table"
+              >MDN</a
+            >
+          </td>
+        </tr>
+        <!-- thead -->
+        <tr>
+          <td>&lt;thead&gt;&lt;/thead&gt;</td>
+          <td>defines the head of the columns</td>
+          <td>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead"
+              >MDN</a
+            >
+          </td>
+        </tr>
+        <!-- tr -->
+        <tr>
+          <td>&lt;tr&gt;&lt;/tr&gt;</td>
+          <td>defines the row of cells</td>
+          <td>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr"
+              >MDN</a
+            >
+          </td>
+        </tr>
+        <!-- th -->
+        <tr>
+          <td>&lt;th&gt;&lt;/th&gt;</td>
+          <td>defines a cell as header of group of table cells</td>
+          <td>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th"
+              >MDN</a
+            >
+          </td>
+        </tr>
+        <!-- tbody -->
+        <tr>
+          <td>&lt;tbody&gt;&lt;/tbody&gt;</td>
+          <td>ccontains table row elements, indicating they are the body of the table</td>
+          <td>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody"
+              >MDN</a
+            >
+          </td>
+        </tr>
+        <!-- td -->
+        <tr>
+          <td>&lt;td&gt;&lt;/td&gt;</td>
+          <td>defines a cell of a table that contains data</td>
+          <td>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td"
+              >MDN</a
+            >
+          </td>
+        </tr>
+        <!-- tfoot -->
+        <tr>
+          <td>&lt;tfoot&gt;&lt;/tfoot&gt;</td>
+          <td>defines a set of tows summarising the columns of a table</td>
+          <td>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot"
+              >MDN</a
+            >
+          </td>
+        </tr>
+      </table>
+      <!-- list table -->
+      <h2>List Tags</h2>
+      <table>
+        <!-- Headers -->
+        <thead>
+          <tr>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <!-- unordered list-->
+        <tr>
+          <td>&lt;ul&gt;&lt;/ul&gt;</td>
+          <td>Unordered List</td>
+          <td>defines an unordered list</td>
+          <td rowspan="3">&lt;ul&gt;<br>&lt;li&gt;&lt;/li&gt;<br>&lt;li&gt;&lt;/li&gt;<br>&lt;/ul&gt;
+          </td>
+        </tr>
+        <!-- ordered list -->
+        <tr>
+          <td>&lt;ol&gt;&lt;/ol&gt;</td>
+          <td>Ordered List</td>
+          <td>cdefines an ordered list</td>
+        
+        </tr>
+        <!--  li -->
+        <tr>
+          <td>&lt;li&gt;&lt;/li&gt;</td>
+          <td>List</td>
+          <td>defines a list item</td>
+          
+        </tr>
+      </table>
+      <h2>HTML5 Boilerplate</h2>
+      <pre>
+        <code>
+&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+  &lt;title>Hello, world!&lt;/title>
+  &lt;meta charset="UTF-8" />
+  &lt;meta name="viewport" content="width=device-width,initial-scale=1" />
+  &lt;meta name="description" content="" />
+&lt;/head>
+&lt;body>
+  &lt;h1>Hello, world!&lt;/h1>
+&lt;/body>
+&lt;/html>
+        </code>
+      </pre>
+    </main>
+  </body>
+</html>
